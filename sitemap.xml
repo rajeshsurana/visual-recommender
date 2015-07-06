@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- sitemap-generator-url="http://www.auditmypc.com/free-sitemap-generator.asp" -->
+<!-- This sitemap was created using the free tool found here: http://www.auditmypc.com/free-sitemap-generator.asp -->
+<!-- Audit My PC also offers free security tools to help keep you safe during internet travels -->
+<urlset 
+		xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+		http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
+<url>
+    <loc>http://www.visualrecommender.com</loc>
+</url>
+<url>
+    <loc>http://www.visualrecommender.com/images/apple-icon-57x57.png</loc>
+    <lastmod>2015-04-28T16:33:00-07:00</lastmod>
+</url>
+<url>
+    <loc>http://www.visualrecommender.com/images/apple-icon-60x60.png</loc>
+    <lastmod>2015-04-28T16:33:13-07:00</lastmod>
+</url>
+<url>
+    <loc>http://www.visualrecommender.com/images/apple-icon-72x72.png</loc>
+    <lastmod>2015-04-28T16:33:17-07:00</lastmod>
+</url>
+<url>
+    <loc>http://www.visualrecommender.com/images/apple-icon-76x76.png</loc>
+    <lastmod>2015-04-28T16:33:22-07:00</lastmod>
+</url>
+<url>
+    <loc>http://www.visualrecommender.com/images/apple-icon-114x114.png</loc>
+    <lastmod>2015-04-28T16:33:33-07:00</lastmod>
+</url>
+<url>
+    <loc>http://www.visualrecommender.com/images/apple-icon-120x120.png</loc>
+    <lastmod>2015-04-28T16:33:39-07:00</lastmod>
+</url>
+<url>
+    <loc>http://www.visualrecommender.com/images/apple-icon-144x144.png</loc>
+    <lastmod>2015-04-28T16:33:44-07:00</lastmod>
+</url>
+<url>
+    <loc>http://www.visualrecommender.com/images/apple-icon-152x152.png</loc>
+    <lastmod>2015-04-28T16:33:51-07:00</lastmod>
+</url>
+<url>
+    <loc>http://www.visualrecommender.com/images/apple-icon-180x180.png</loc>
+    <lastmod>2015-04-28T16:34:02-07:00</lastmod>
+</url>
+<url>
+    <loc>http://www.visualrecommender.com/images/android-icon-192x192.png</loc>
+    <lastmod>2015-04-28T16:32:55-07:00</lastmod>
+</url>
+<url>
+    <loc>http://www.visualrecommender.com/images/favicon-32x32.png</loc>
+    <lastmod>2015-04-28T16:34:42-07:00</lastmod>
+</url>
+<url>
+    <loc>http://www.visualrecommender.com/images/favicon-96x96.png</loc>
+    <lastmod>2015-04-28T16:34:47-07:00</lastmod>
+</url>
+<url>
+    <loc>http://www.visualrecommender.com/images/favicon-16x16.png</loc>
+    <lastmod>2015-04-28T16:34:31-07:00</lastmod>
+</url>
+<url>
+    <loc>http://www.visualrecommender.com/images/manifest.json</loc>
+    <lastmod>2015-04-28T16:34:51-07:00</lastmod>
+</url>
+<url>
+    <loc>http://www.visualrecommender.com/css/main.css</loc>
+    <lastmod>2015-05-08T13:07:29-07:00</lastmod>
+</url>
+<url>
+    <loc>http://www.visualrecommender.com/css/bootstrap.min.css</loc>
+    <lastmod>2015-05-01T11:45:01-07:00</lastmod>
+</url>
+<url>
+    <loc>http://www.visualrecommender.com/css/bootstrap-theme.min.css</loc>
+    <lastmod>2015-04-28T03:03:35-07:00</lastmod>
+</url>
+<url>
+    <loc>http://www.visualrecommender.com/css/bootstrap-toggle.min.css</loc>
+    <lastmod>2015-04-28T03:03:42-07:00</lastmod>
+</url>
+<url>
+    <loc>http://www.visualrecommender.com/about.php</loc>
+</url>
+<url>
+    <loc>http://www.visualrecommender.com/contact.php</loc>
+</url>
+<url>
+    <loc>http://www.visualrecommender.com/document/visualrecommender.pdf</loc>
+    <lastmod>2015-07-05T01:56:05-07:00</lastmod>
+</url>
+<url>
+    <loc>http://www.visualrecommender.com/phpfiles/userid.php</loc>
+</url>
+<url>
+    <loc>http://www.visualrecommender.com/images/home.png</loc>
+    <lastmod>2015-07-05T01:56:47-07:00</lastmod>
+</url>
+<url>
+    <loc>http://www.visualrecommender.com/images/search.png</loc>
+    <lastmod>2015-07-05T01:56:45-07:00</lastmod>
+</url>
+<url>
+    <loc>http://www.visualrecommender.com/images/mobile.png</loc>
+    <lastmod>2015-07-05T01:56:41-07:00</lastmod>
+</url>
+</urlset>

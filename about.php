@@ -4,12 +4,13 @@ session_start();
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <meta charset="UTF-8">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="title" content="About">
+      <title>About</title>
 	  <meta name="description" content="Description of visualrecommender">
-      <meta name="keywords" content="recommender, visual, stackoverflow, responsive, bootstrap">
+      <meta name="keywords" content="visual recommeder, stackoverflow, responsive, bootstrap">
       <meta name="author" content="Rajesh Surana">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	  <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
       <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
 	  <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
 	  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
@@ -28,7 +29,6 @@ session_start();
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-      <title>About</title>
       <link rel="stylesheet" href="css/main.css">
       <style>
         @media(min-width:778px) {
@@ -108,7 +108,7 @@ session_start();
 	<div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <h2> Stackoverflow Visual Recommender</h2>
+                <h2><strong>Visual Recommender</strong></h2>
             </div>
         </div> 
         <div class="row">
@@ -155,5 +155,22 @@ session_start();
             </div>
         </div>
     </div><!-- /container -->
+    <!-- Start of StatCounter Code for Default Guide -->
+    <script type="text/javascript">
+    var sc_project=10520019; 
+    var sc_invisible=1; 
+    var sc_security="cf9eb2e7"; 
+    var scJsHost = (("https:" == document.location.protocol) ?
+    "https://secure." : "http://www.");
+    document.write("<sc"+"ript type='text/javascript' src='" +
+    scJsHost+
+    "statcounter.com/counter/counter.js'></"+"script>");
+    </script>
+    <noscript><div class="statcounter"><a title="shopify site
+    analytics" href="http://statcounter.com/shopify/"
+    target="_blank"><img class="statcounter"
+    src="http://c.statcounter.com/10520019/0/cf9eb2e7/1/"
+    alt="shopify site analytics"></a></div></noscript>
+    <!-- End of StatCounter Code for Default Guide -->
 </body>
 </html>

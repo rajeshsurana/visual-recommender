@@ -53,19 +53,20 @@ if (!isset($errName) && !isset($errEmail) && !isset($errMessage) && !isset($errH
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <meta charset="UTF-8">
-	  <meta name="description" content="You can contact website owener through this contact form.">
-      <meta name="keywords" content="recommender, visual, stackoverflow, responsive, bootstrap">
-      <meta name="author" content="Rajesh Surana">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	  <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
-      <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
-	  <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
-	  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
-	  <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
-	  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
-	  <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
-      <link rel="alternate" hreflang="x-default" href="http://www.visualrecommender.com/" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="title" content="About">
+    <title>Contact</title>
+    <meta name="description" content="I would like to hear about your thoughts. Please send your valuable suggestions through contact form.">
+    <meta name="keywords" content="contact, visual recommender, stackoverflow, responsive, bootstrap">
+    <meta name="author" content="Rajesh Surana">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+    <link rel="alternate" hreflang="x-default" href="http://www.visualrecommender.com/" />
 	<link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
 	<link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
 	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
@@ -77,21 +78,20 @@ if (!isset($errName) && !isset($errEmail) && !isset($errMessage) && !isset($errH
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-      <title>Contact</title>
-      <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css">
 
-	  <!-- JAVASCRIPT to clear search text when the field is clicked -->
-	  <!--<script type="text/javascript" src="javascript/recScript.js" async></script>-->
-	  <script type="text/javascript" src="javascript/jquery-1.11.2.min.js"></script>
-	 <!-- <script type="text/javascript" src="javascript/login.js" async></script>-->
-	  <!-- Latest compiled and minified CSS -->
-	  <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- JAVASCRIPT to clear search text when the field is clicked -->
+    <!--<script type="text/javascript" src="javascript/recScript.js" async></script>-->
+    <script type="text/javascript" src="javascript/jquery-1.11.2.min.js"></script>
+    <!-- <script type="text/javascript" src="javascript/login.js" async></script>-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
-	  <!-- Optional theme -->
-	  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 
-	  <!-- Latest compiled and minified JavaScript -->
-	  <script src="javascript/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="javascript/bootstrap.min.js"></script>
   
   </head>
 <body>
@@ -148,7 +148,9 @@ if (!isset($errName) && !isset($errEmail) && !isset($errMessage) && !isset($errH
 		}
 			?>
 	<div class="container">
-    
+        <div class="row">
+            <h2><strong>Contact Me<strong></h2>
+        </div>
         <form class="form-horizontal" role="form" method="post" action="contact.php">
             <div class="form-group">
                 <label for="name" class="col-sm-2 control-label">Name</label>
@@ -191,7 +193,7 @@ if (!isset($errName) && !isset($errEmail) && !isset($errMessage) && !isset($errH
         </form> 
         <div class="row">
             <div class="col-sm-12">
-                <h3>Address</h3>
+                <h4><b>Address</b></h4>
                     <p>1265 E University Drive<br/>
                        Tempe AZ US. 85281<br/>
                        E: rajesh.surana@asu.edu<br/>
@@ -201,5 +203,22 @@ if (!isset($errName) && !isset($errEmail) && !isset($errMessage) && !isset($errH
             </div>
         </div>
     </div><!-- /container -->
+    <!-- Start of StatCounter Code for Default Guide -->
+    <script type="text/javascript">
+    var sc_project=10520019; 
+    var sc_invisible=1; 
+    var sc_security="cf9eb2e7"; 
+    var scJsHost = (("https:" == document.location.protocol) ?
+    "https://secure." : "http://www.");
+    document.write("<sc"+"ript type='text/javascript' src='" +
+    scJsHost+
+    "statcounter.com/counter/counter.js'></"+"script>");
+    </script>
+    <noscript><div class="statcounter"><a title="shopify site
+    analytics" href="http://statcounter.com/shopify/"
+    target="_blank"><img class="statcounter"
+    src="http://c.statcounter.com/10520019/0/cf9eb2e7/1/"
+    alt="shopify site analytics"></a></div></noscript>
+    <!-- End of StatCounter Code for Default Guide -->
 </body>
 </html>

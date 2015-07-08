@@ -4,12 +4,14 @@ session_start();
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <meta charset="UTF-8">
-	  <meta name="description" content="Personalized responsive visual recommender in the matrix form with user-controllable interface.">
-      <meta name="keywords" content="recommender, visual, stackoverflow, responsive, bootstrap">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="title" content="Visual Recommender - Personalized responsive matrix form"/>
+      <title>Visual Recommender - Personalized responsive matrix form</title>
+	  <meta name="description" content="Visit Rajesh Surana's personalized responsive visual recommender in the matrix form with user-controllable interface.">
+      <meta name="keywords" content="visual recommender, stackoverflow, responsive, bootstrap, matrix form">
       <meta name="author" content="Rajesh Surana">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	  <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+      <link rel="stylesheet" href="css/main.css">
 	  <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
 	  <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
 	  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
@@ -28,8 +30,8 @@ session_start();
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-      <title>Visual Recommender</title>
-      <link rel="stylesheet" href="css/main.css">
+    <meta name="msvalidate.01" content="F6CB8DF861831D8B738798FDACE33229" />
+  
 	  
 	  <script type="text/javascript" src="javascript/jquery-1.11.2.min.js"></script>
 	  <!-- Latest compiled and minified CSS -->
@@ -100,7 +102,7 @@ session_start();
   </div><!-- /.container-fluid -->
 </nav>
 		
-		</div>
+		<h1 class="hidden"><strong>Visual Recommender</strong></h1>
 		<div class="row1">
 			<div class="col-1 vertical-box">
 				<!--<select class="form-control" id="attr-row1">
@@ -128,5 +130,22 @@ session_start();
 			<div class="caption-bottom">Personal</div>
 		</div>
 		<div class="row"><div style="font-style: italic;">* <u>Darker</u> the <b>SQUARE</b> color higher the result recommended</div></div>
+        <!-- Start of StatCounter Code for Default Guide -->
+        <script type="text/javascript">
+        var sc_project=10520019; 
+        var sc_invisible=1; 
+        var sc_security="cf9eb2e7"; 
+        var scJsHost = (("https:" == document.location.protocol) ?
+        "https://secure." : "http://www.");
+        document.write("<sc"+"ript type='text/javascript' src='" +
+        scJsHost+
+        "statcounter.com/counter/counter.js'></"+"script>");
+        </script>
+        <noscript><div class="statcounter"><a title="shopify site
+        analytics" href="http://statcounter.com/shopify/"
+        target="_blank"><img class="statcounter"
+        src="http://c.statcounter.com/10520019/0/cf9eb2e7/1/"
+        alt="shopify site analytics"></a></div></noscript>
+        <!-- End of StatCounter Code for Default Guide -->
 </body>
 </html>

@@ -3,57 +3,71 @@ session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-      <meta name="title" content="About">
-      <title>About</title>
-	  <meta name="description" content="Description of visualrecommender">
-      <meta name="keywords" content="visual recommeder, stackoverflow, responsive, bootstrap">
-      <meta name="author" content="Rajesh Surana">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
-	  <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
-	  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
-	  <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
-	  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
-	  <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
-      <link rel="alternate" hreflang="x-default" href="http://www.visualrecommender.com/" />
-	<link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="images/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-	<link rel="manifest" href="images/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-      <link rel="stylesheet" href="css/main.css">
-      <style>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="title" content="About">
+        <title>About</title>
+        <meta name="description" content="Description of visualrecommender">
+        <meta name="keywords" content="visual recommeder, stackoverflow, responsive, bootstrap">
+        <meta name="author" content="Rajesh Surana">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+        <link rel="alternate" hreflang="x-default" href="http://www.visualrecommender.com/" />
+        <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="images/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <link rel="manifest" href="images/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+        <style>
         @media(min-width:778px) {
             .about-image {
                 width : 50%;
             }
         }
-      </style>
+        </style>
 
-	  <!-- JAVASCRIPT to clear search text when the field is clicked -->
-	  <!--<script type="text/javascript" src="javascript/recScript.js" async></script>-->
-	  <script type="text/javascript" src="javascript/jquery-1.11.2.min.js"></script>
-	 <!-- <script type="text/javascript" src="javascript/login.js" async></script>-->
-	  <!-- Latest compiled and minified CSS -->
-	  <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- JAVASCRIPT to clear search text when the field is clicked -->
+        <!--<script type="text/javascript" src="javascript/recScript.js" async></script>-->
+        <script type="text/javascript" src="javascript/jquery-1.11.2.min.js"></script>
+        <!-- <script type="text/javascript" src="javascript/login.js" async></script>-->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
 
-	  <!-- Optional theme -->
-	  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 
-	  <!-- Latest compiled and minified JavaScript -->
-	  <script src="javascript/bootstrap.min.js"></script>
-  
-  </head>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="javascript/bootstrap.min.js"></script>
+        <style>
+            html,
+            body {
+               margin:0;
+               padding:0;
+               height:100%;
+            }
+            #container{
+               min-height:100%;
+               position:relative;
+            }
+        </style>
+    </head>
 <body>
-	<div class="grid" align="center">
+	<div class="grid" align="center" id="container">
 		<div class="row-header">
 		<nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -65,7 +79,7 @@ session_start();
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="http://www.visualrecommender.com" style="background-color:black; color:white;">Stackoverflow Recommender</a>
+      <a class="navbar-brand" href="http://www.visualrecommender.com" style="background-color:black; color:white;">Visual Recommender</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -155,6 +169,62 @@ session_start();
             </div>
         </div>
     </div><!-- /container -->
+    </div>
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3>Visual<span>Recommender</span></h3>
+
+            <p class="footer-links">
+                <a href="/">Home</a>
+                ·
+                <a href="about.php">About</a>
+                ·
+                <a href="contact.php">Contact</a>
+            </p>
+
+            <p class="footer-company-name">Visual Recommender &copy; 2015</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Arizona State University</span> Tempe, AZ</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+1 480 2898922</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">rsurana@asu.edu</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>Disclaimer</span>
+                Database for this recommender model has been extracted by using Stackoverflow API and all the sensitive information has been masked.
+            </p>
+
+            <!--<div class="footer-icons">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+
+            </div>-->
+
+        </div>
+
+    </footer>
     <!-- Start of StatCounter Code for Default Guide -->
     <script type="text/javascript">
     var sc_project=10520019; 

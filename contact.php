@@ -79,7 +79,9 @@ if (!isset($errName) && !isset($errEmail) && !isset($errMessage) && !isset($errH
 	<meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="css/main.css">
-
+    <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
     <!-- JAVASCRIPT to clear search text when the field is clicked -->
     <!--<script type="text/javascript" src="javascript/recScript.js" async></script>-->
     <script type="text/javascript" src="javascript/jquery-1.11.2.min.js"></script>
@@ -92,10 +94,21 @@ if (!isset($errName) && !isset($errEmail) && !isset($errMessage) && !isset($errH
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="javascript/bootstrap.min.js"></script>
-  
+    <style>
+        html,
+        body {
+           margin:0;
+           padding:0;
+           height:100%;
+        }
+        #container{
+           min-height:100%;
+           position:relative;
+        }
+    </style>  
   </head>
 <body>
-	<div class="grid" align="center">
+	<div class="grid" align="center" id="container">
 		<div class="row-header">
 		<nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -107,7 +120,7 @@ if (!isset($errName) && !isset($errEmail) && !isset($errMessage) && !isset($errH
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="http://www.visualrecommender.com" style="background-color:black; color:white;">Stackoverflow Recommender</a>
+      <a class="navbar-brand" href="http://www.visualrecommender.com" style="background-color:black; color:white;">Visual Recommender</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -149,7 +162,8 @@ if (!isset($errName) && !isset($errEmail) && !isset($errMessage) && !isset($errH
 			?>
 	<div class="container">
         <div class="row">
-            <h2><strong>Contact Me<strong></h2>
+            <h2><strong>Contact<strong></h2>
+            <p>Your feedback is valuable to us.</p>
         </div>
         <form class="form-horizontal" role="form" method="post" action="contact.php">
             <div class="form-group">
@@ -191,18 +205,63 @@ if (!isset($errName) && !isset($errEmail) && !isset($errMessage) && !isset($errH
                 </div>
             </div>
         </form> 
-        <div class="row">
-            <div class="col-sm-12">
-                <h4><b>Address</b></h4>
-                    <p>1265 E University Drive<br/>
-                       Tempe AZ US. 85281<br/>
-                       E: rajesh.surana@asu.edu<br/>
-                       M: (480) 289 - 8922<br/>
-                       <a href="http://www.rajeshsurana.com" target="_blank">www.rajeshsurana.com</a>
-                    </p>
-            </div>
-        </div>
     </div><!-- /container -->
+    </div>
+        <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3>Visual<span>Recommender</span></h3>
+
+            <p class="footer-links">
+                <a href="/">Home</a>
+                ·
+                <a href="about.php">About</a>
+                ·
+                <a href="contact.php">Contact</a>
+            </p>
+
+            <p class="footer-company-name">Visual Recommender &copy; 2015</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Arizona State University</span> Tempe, AZ</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+1 480 2898922</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">rsurana@asu.edu</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>Disclaimer</span>
+                Database for this recommender model has been extracted by using Stackoverflow API and all the sensitive information has been masked.
+            </p>
+
+            <!--<div class="footer-icons">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+
+            </div>-->
+
+        </div>
+
+    </footer>
     <!-- Start of StatCounter Code for Default Guide -->
     <script type="text/javascript">
     var sc_project=10520019; 

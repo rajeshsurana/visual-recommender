@@ -46,13 +46,13 @@ if (isset($_SESSION['login_user'])){
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="http://www.visualrecommender.com" style="background-color:black; color:white;">Stackoverflow Recommender</a>
+      <a class="navbar-brand" href="http://www.visualrecommender.com" style="background-color:black; color:white;">Visual Recommender</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="http://www.visualrecommender.com">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="http://www.visualrecommender.com">Home <span class="sr-only">(current)</span></a></li>
         <li><a href="about.php">About</a></li>
 		<li><a href="contact.php">Contact</a></li>
       </ul>
@@ -82,13 +82,13 @@ if (isset($_SESSION['login_user'])){
                 <input type="password" id="password" name="password" class="form-control" placeholder="Password" required value="1234">
                 <div id="remember" class="checkbox">
                     <label>
-                        <input type="checkbox" value="remember-me"> Remember me
+                        <input type="checkbox" value="remember-me" checked onclick="return false" disabled="disabled"> Remember me
                     </label>
                 </div>
                 <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign in</button>
             </form><!-- /form -->
-            <a href="#" class="forgot-password">
-                Forgot the password?
+            <a href="phpfiles/userid.php" class="forgot-password" target="_blank">
+                Get User ID & Password.
             </a>
         </div><!-- /card-container -->
     </div><!-- /container -->
